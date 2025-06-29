@@ -1,0 +1,26 @@
+/* 1. Element selector: selects all <h1> elements */
+h1 {
+    color: blue;
+}
+
+/* 2. Element selector: selects all <p> elements */
+p {
+    color: darkgreen;
+}
+
+/* 3. Class selector: selects all elements with class="highlight" */
+.highlight {
+    background-color: yellow;
+}
+
+/* 4. ID selector: selects the element with id="special" */
+#special {
+    font-weight: bold;
+    color: red;
+}
+
+/* 5. Descendant selector: selects <p> inside <div> */
+div p {
+    border: 1px solid black;
+    padding: 5px;
+}
