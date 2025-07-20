@@ -1,0 +1,16 @@
+/* External CSS for Box Model Example */
+
+.box {
+    width: 200px;
+    /* Content width */
+    height: 100px;
+    /* Content height */
+    padding: 20px;
+    /* Space inside the box */
+    border: 5px solid blue;
+    /* Border around the box */
+    margin: 30px;
+    /* Space outside the box */
+    background-color: lightyellow;
+    /* Box background */
+}
