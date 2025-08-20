@@ -1,0 +1,41 @@
+/* Setting a background color for the whole page */
+body {
+    background-color: #f0f8ff;
+    /* light blue */
+    font-family: Arial, sans-serif;
+}
+
+/* Example of text color */
+h1 {
+    color: darkblue;
+    /* simple named color */
+    text-align: center;
+}
+
+/* Example of background color for a box */
+.color-box {
+    background-color: lightcoral;
+    /* gives a soft red background */
+    color: white;
+    /* text color inside box */
+    padding: 20px;
+    margin: 20px auto;
+    width: 200px;
+    text-align: center;
+    border-radius: 8px;
+    /* slightly rounded corners */
+}
+
+/* Example of background image */
+.bg-image-box {
+    background-image: url("https://picsum.photos/300/150");
+    /* random image */
+    background-size: cover;
+    /* makes image cover the whole box */
+    background-position: center;
+    height: 150px;
+    width: 300px;
+    margin: 20px auto;
+    border: 2px solid #333;
+    border-radius: 8px;
+}
